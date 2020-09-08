@@ -1,11 +1,13 @@
-const express =require('express')
+const express = require('express')
 const router = express.Router()
 
-//@desc Longin/Landing Page
-//@route GET/
+// @desc    Login/Landing page
+// @route   GET /
 router.get('/', (req, res) => {
-    res.render('login')
-})
+    res.render('login',{
+        layout: 'login',
+    })
+  })
 
 //@desc Dashboard
 //@route GET/dashboard

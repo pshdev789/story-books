@@ -2,22 +2,60 @@ p {
     margin: 10px 0 !important;
 }
 
+body {
+    background-color: #f8e5e5;
+}
+
 .login-container {
     width: 400px;
     margin-top: 50px;
     text-align: center;
-    color: yellowgreen;
+    color:#fa255e;
 }
 
 .fa-small {
     font-size: 16px !important;
 }
 
-.btn-float{
+.btn-float {
     float: left;
     margin-right: 10px;
 }
 
-.img-small{
-    width: 180px;    
+.img-small {
+    width: 180px;
 }
+
+.welcome-container {
+    padding-left: 800px;
+    font-family: monospace;
+    /* margin-right: 500px; */
+}
+
+.sidenav {
+    color: darkcyan;
+    background-color: #ADE6D1;
+    border-block: 10px;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: normal;
+}
+
+li a.active {
+    background-color:#26a69a;
+    color: white;
+  }
+h1{
+    color: #26a69a;
+}  

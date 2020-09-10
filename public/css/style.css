@@ -31,6 +31,10 @@ body {
     font-family: monospace;
     /* margin-right: 500px; */
 }
+.col.s12.m8 story{
+
+    color: darkcyan;
+}
 
 .sidenav {
     color: darkcyan;

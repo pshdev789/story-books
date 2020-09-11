@@ -25,20 +25,38 @@ body {
 .img-small {
     width: 180px;
 }
-
+.n1{
+color: #fa255e;
+}
 .welcome-container {
     padding-left: 800px;
     font-family: monospace;
     /* margin-right: 500px; */
 }
-.col.s12.m8 story{
+.card-content.center-align {
 
-    color: darkcyan;
+    /* color: white;
+    background-color: rgba(12, 145, 145, 0.781); */
+    
+    
+    color: black; 
+    background-color: #ddb9bb;
+}
+
+.card-content {
+
+    /* color: white;
+    background-color: rgba(12, 145, 145, 0.781); */
+    
+    
+    color: rgb(0, 0, 0); 
+    font-style: oblique;
+    background-color: #ddb9bb;
 }
 
 .sidenav {
     color: darkcyan;
-    background-color: #ADE6D1;
+    background-color: #ddb9bb;
     border-block: 10px;
 }
 
@@ -57,9 +75,12 @@ li a {
 }
 
 li a.active {
-    background-color:#26a69a;
+    background-color:rgba(12, 145, 145, 0.781);
     color: white;
   }
 h1{
     color: #26a69a;
 }  
+h3{
+    color: #26a69a;
+}

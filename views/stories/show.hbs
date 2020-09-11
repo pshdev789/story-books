@@ -3,10 +3,11 @@
         <h3>{{story.title}}
             <small>{{{editIcon story.user user story._id false}}}</small>
         </h3>
-        <div class="card story">
+        <br/>
+        <div class="card story" id="crd">
             <div class="card-content">
                 <span class="card-title">{{formatDate date 'MMMM Do YYYY, h:mm:ss a'}}</span>
-                {{{story.body}}}
+                <b>{{{story.body}}}</b>
             </div>
         </div>
     </div>
